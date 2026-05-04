@@ -1,7 +1,15 @@
-# Environment and secrets
-.env
-.env.*
-!.env.example
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
 # Python
 __pycache__/
@@ -22,23 +30,24 @@ build/
 .coverage
 htmlcov/
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-error.log*
+# Environment and secrets
+.env
+.env.*
+!.env.example
 
-# OS / editors
-.DS_Store
-Thumbs.db
-desktop.ini
-.idea/
-.vscode/
-*.swp
-*~
+# Node (if added at workspace root)
+node_modules/
 
 # Logs
 *.log
 
-# Local data / outputs (adjust if you intentionally version sample data)
-*.sqlite
-*.db
+# Cursor (optional local indexing; uncomment if you do not want these in the repo)
+# .cursor/
+
+# Personal / other content in this OneDrive folder (not part of the workspace project)
+03. Recruiting/
+1. Documents/
+2. Development/
+99. Comics/
+99. Taxes/
+20260420 Investory Dialogue Analysis.xlsx
