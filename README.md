@@ -1,14 +1,20 @@
-# Nilay workspace
+# SpendSculptor
 
-Personal workspace containing procurement-related tools and projects.
+SpendSculptor is a spend analytics and procurement tooling application. This repository contains the **SpendSculptor** source code, configuration, and documentation.
 
-## Projects
+## Getting started
 
-- **`procurement-mastery-course`** — Course materials, data generators, and reference docs for procurement analytics.
-- **`procurement-spend-dashboard`** — Static spend dashboard (HTML/JS) with optional GitHub Pages / Netlify deployment notes.
+1. **Python:** use Python 3.10+ and a virtual environment.
+2. **Install dependencies** (when `requirements.txt` is present):
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Configuration:** copy `.env.example` to `.env` if provided; never commit secrets.
 
-Each subfolder may keep its own README and tooling. See the project directories for setup instructions.
+## Repository layout
 
-## Repository scope
+Application code, assets, and tests live in this repository root and subfolders as the project grows (e.g. `src/`, `app/`, or a `frontend/` + `backend/` layout). Add project-specific run instructions here as features are added.
 
-This folder is also a OneDrive directory with other personal or non-project content. Those paths are listed in the root `.gitignore` and are **not** part of this repository.
+## License
+
+Add a license if you plan to share the project publicly.

@@ -35,19 +35,14 @@ htmlcov/
 .env.*
 !.env.example
 
-# Node (if added at workspace root)
+# Node (if used)
 node_modules/
+npm-debug.log*
+yarn-error.log*
 
 # Logs
 *.log
 
-# Cursor (optional local indexing; uncomment if you do not want these in the repo)
-# .cursor/
-
-# Personal / other content in this OneDrive folder (not part of the workspace project)
-03. Recruiting/
-1. Documents/
-2. Development/
-99. Comics/
-99. Taxes/
-20260420 Investory Dialogue Analysis.xlsx
+# Local databases / outputs (adjust per project)
+*.sqlite
+*.db
